@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.469" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" time="0.453" errors="0" skipped="0">
   <properties>
-    <property name="idea.version" value="2022.1.2"/>
+    <property name="idea.version" value="2023.1.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.4+10-LTS"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin"/>
@@ -32,6 +32,7 @@
     <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.4\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\apache-maven-3.6.1\bin;D:\Programas\Gradle\gradle-6.3\bin;D:\Programas\Putty\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-11.0.4\bin;C:\Program Files (x86)\Python\Python38-32\Scripts\;D:\Programas\MongoDB\Server\4.2\bin;D:\Programas\NodeJS\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\Programas\Amazon\AWSCLI\bin\;C:\Program Files (x86)\Python\Python38-32\Scripts;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.4\bin;;D:\Programas\Microsoft VS Code\bin;D:\Programas\Heroku\bin;C:\Program Files\heroku\bin;C:\Users\Edson\AppData\Roaming\npm;C:\Users\Edson\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="jansi.passthrough" value="true"/>
     <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.4\plugins\maven\lib\maven3/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="55.0"/>
@@ -47,7 +48,7 @@
     <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.4\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.1.2 test"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2023.1.2 clean install"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.4"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -66,10 +67,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" name="deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto]" time="0.453"/>
-  <testcase classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" name="deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%]" time="0"/>
-  <testcase classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" name="deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%]" time="0"/>
-  <testcase classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" name="deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%]" time="0"/>
-  <testcase classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" name="deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%]" time="0"/>
-  <testcase classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" name="deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto]" time="0.016"/>
+  <testcase classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" name="deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto]" time="0.448"/>
+  <testcase classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" name="deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%]" time="0.001"/>
+  <testcase classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" name="deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%]" time="0.001"/>
+  <testcase classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" name="deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%]" time="0.001"/>
+  <testcase classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" name="deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%]" time="0.001"/>
+  <testcase classname="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" name="deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto]" time="0.001"/>
 </testsuite>

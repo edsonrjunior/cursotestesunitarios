@@ -1,17 +1,9 @@
 package br.ce.wcaquino.servicos;
 
-import br.ce.wcaquino.entidades.Locacao;
+import br.ce.wcaquino.exceptions.NaoPodeDividirPorZeroException;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import br.ce.wcaquino.exceptions.NaoPodeDividirPorZeroException;
-import br.ce.wcaquino.servicos.Calculadora;
-
-import org.mockito.ArgumentCaptor;
-import org.mockito.Mockito;
-
-import static org.mockito.ArgumentCaptor.forClass;
 
 public class CalculadoraTest {
 	
