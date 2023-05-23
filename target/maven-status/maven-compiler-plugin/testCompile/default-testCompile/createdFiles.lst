@@ -1,0 +1,10 @@
+br\ce\wcaquino\servicos\CalculoValorLocacaoTest.class
+br\ce\wcaquino\builders\UsuarioBuilder.class
+br\ce\wcaquino\matchers\DiaSemanaMatcher.class
+br\ce\wcaquino\matchers\MatchersProprios.class
+br\ce\wcaquino\builders\LocacaoBuilder.class
+br\ce\wcaquino\matchers\DataDiferencaDiasMatcher.class
+br\ce\wcaquino\servicos\LocacaoServiceTest.class
+br\ce\wcaquino\suites\SuiteExecucao.class
+br\ce\wcaquino\builders\FilmeBuilder.class
+br\ce\wcaquino\servicos\CalculadoraTest.class
