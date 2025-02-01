@@ -1,23 +1,21 @@
 package br.ce.wcaquino.matchers;
 
-import java.util.Date;
-
+import br.ce.wcaquino.utils.DataUtils;
 import org.hamcrest.Description;
 import org.hamcrest.TypeSafeMatcher;
 
-import br.ce.wcaquino.utils.DataUtils;
+import java.util.Date;
 
 public class DataDiferencaDiasMatcher extends TypeSafeMatcher<Date> {
 
-	private Integer qtdDias;
+	private final Integer qtdDias;
 	
 	public DataDiferencaDiasMatcher(Integer qtdDias) {
 		this.qtdDias = qtdDias;
 	}
 	
 	public void describeTo(Description arg0) {
-		// TODO Auto-generated method stub
-
+		//rever
 	}
 
 	@Override

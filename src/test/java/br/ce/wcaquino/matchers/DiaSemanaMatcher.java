@@ -11,9 +11,9 @@ import br.ce.wcaquino.utils.DataUtils;
 
 public class DiaSemanaMatcher extends TypeSafeMatcher<Date> {
 
-	private Integer diaSemana;
+	private final int diaSemana;
 	
-	public DiaSemanaMatcher(Integer diaSemana) {
+	public DiaSemanaMatcher(int diaSemana) {
 		this.diaSemana = diaSemana;
 	}
 	

@@ -20,7 +20,7 @@ public class Calculadora {
 	}
 	
 	public int divide(String a, String b) {
-		return Integer.valueOf(a) / Integer.valueOf(b);
+		return Integer.parseInt(a) / Integer.parseInt(b);
 	}
 	
 	public static void main(String[] args) {

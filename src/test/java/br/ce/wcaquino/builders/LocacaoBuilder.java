@@ -1,24 +1,21 @@
 package br.ce.wcaquino.builders;
 
+import br.ce.wcaquino.entidades.Filme;
+import br.ce.wcaquino.entidades.Locacao;
 import br.ce.wcaquino.entidades.Usuario;
-import br.ce.wcaquino.utils.DataUtils;
+import lombok.NoArgsConstructor;
 
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Date;
 
 import static br.ce.wcaquino.builders.FilmeBuilder.umFilme;
 import static br.ce.wcaquino.builders.UsuarioBuilder.umUsuario;
 import static br.ce.wcaquino.utils.DataUtils.obterDataComDiferencaDias;
 
-import java.lang.Double;
-import java.util.Date;
-
-import br.ce.wcaquino.entidades.Filme;
-import br.ce.wcaquino.entidades.Locacao;
-
-
+@NoArgsConstructor
 public class LocacaoBuilder {
 	private Locacao elemento;
-	private LocacaoBuilder(){}
 
 	public static LocacaoBuilder umLocacao() {
 		LocacaoBuilder builder = new LocacaoBuilder();
@@ -30,9 +27,8 @@ public class LocacaoBuilder {
 		builder.elemento = new Locacao();
 		Locacao elemento = builder.elemento;
 
-		
 		elemento.setUsuario(umUsuario().agora());
-		elemento.setFilmes(Arrays.asList(umFilme().agora()));
+		elemento.setFilmes(Collections.singletonList(umFilme().agora()));
 		elemento.setDataLocacao(new Date());
 		elemento.setDataRetorno(obterDataComDiferencaDias(1));
 		elemento.setValor(4.0);
